@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+#main-container{
+   background-color: #212832;
+   padding: 20px;
+   border-radius: 25px;
+   max-width: 350px;
+   color:  hsl(216, 12%, 54%);
+   box-sizing: border-box;
+   font-size: 15px;
+   text-align: left;
+}
+.star-icon{
+    border-radius: 50%;
+    background-color: #2A313B;
+    padding: 10px;
+    display: inline-block;
+}
+
+.star-icon svg{
+    font-size: 5px;
+    text-align: center;
+}
+
+h1{
+    margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul{
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+}
+
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.links{
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #2A313B;
+    color: hsl(216, 12%, 54%);
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.links:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.links:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px 0;
+    margin-top: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    color:  hsl(25, 97%, 53%);
+}
+
+.attribution{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+/****************Styles for the Thank You State*****************/
+#container2{
+    background-color: #272E38;
+    padding: 30px;
+    border-radius: 25px;
+    max-width: 350px;
+    color:  hsl(216, 12%, 54%);
+    box-sizing: border-box;
+    font-size: 15px;
+    display: none;
+}
+
+.img{
+   text-align: center;
+}
+
+#container2 h1{
+    text-align: center;
+}
+.para1{
+    color: hsl(25, 97%, 53%);
+    margin-top: 20px;
+    background-color: #2A313B;
+    padding: 5px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.para2{
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+   #main-container{
+    max-width: 700px;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 25px;
+   }
+
+   .star-icon svg{
+    font-size: 50px;
+   }
+
+   ul{
+    margin: 20px;
+    justify-content: start;
+   }
+
+   li{
+    margin-right: 1rem;
+    padding: 2rem;
+   }
+   button{
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+   }
+
+   .attribution{
+    font-size: 1.5rem;
+   }
+   
+   #container2{
+     max-width: 600px;
+     font-size: 2rem;
+     border-radius: 25px;
+   }
+}
+    
