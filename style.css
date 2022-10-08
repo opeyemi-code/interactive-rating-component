@@ -19,7 +19,7 @@ body{
    background-color: #212832;
    padding: 25px;
    border-radius: 20px;
-   max-width: 350px;
+   max-width: 330px;
    color:  hsl(216, 12%, 54%);
    box-sizing: border-box;
    font-size: 15px;
@@ -111,7 +111,7 @@ button:hover{
     background-color: #272E38;
     padding: 30px;
     border-radius: 20px;
-    max-width: 350px;
+    max-width: 330px;
     color:  hsl(216, 12%, 54%);
     box-sizing: border-box;
     font-size: 15px;
