@@ -16,7 +16,7 @@ submitBtn.addEventListener('click', submitRate);
 
 function submitRate (e) {
     e.preventDefault();
-        if (rateValue > 0){
+        if (true){
             mainContainer.style.display = 'none';
             container.style.display = 'block';
             rate.textContent = `${rateValue} `;
